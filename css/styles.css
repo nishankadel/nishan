@@ -1,5 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
 /*===== VARIABLES CSS =====*/
 :root{
   --header-height: 3rem;
@@ -220,6 +222,10 @@ img{
   width: 295px;
 }
 
+  .home__img img{
+  border-radius: 100%;
+}
+
 /*BUTTONS*/
 .button{
   display: inline-block;
@@ -300,6 +306,9 @@ img{
 }
 .skills__python{
   width: 77%;
+}
+.skills__react{
+  width: 30%;
 }
 .skills__img{
   border-radius: .5rem;
