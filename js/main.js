@@ -55,6 +55,8 @@ sr.reveal('.work__img',{interval: 200});
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
+sr.reveal('p',{interval: 200}); 
+sr.reveal('h2',{interval: 200}); 
 
 
 

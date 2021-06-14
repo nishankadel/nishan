@@ -1,6 +1,9 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+body {
+  background-color: #c8d0c9;
+}
 /*===== VARIABLES CSS =====*/
 :root {
   --header-height: 3rem;
@@ -121,7 +124,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: #5e615e;
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -148,9 +151,12 @@ img {
 .nav__item {
   margin-bottom: var(--mb-4);
 }
+
+.nav__item a {
+  color: #fff;
+}
 .nav__link {
   position: relative;
-  color: #fff;
 }
 .nav__link:hover {
   position: relative;
@@ -162,10 +168,12 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  /* background-color: var(--first-color); */
+  background-color: #fff;
 }
 .nav__logo {
-  color: var(--second-color);
+  /* color: var(--second-color); */
+  color: #fff;
 }
 .nav__toggle {
   color: var(--second-color);
@@ -181,7 +189,8 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #fff;
+  /* background-color: var(--first-color); */
 }
 
 /*=== Show menu ===*/
